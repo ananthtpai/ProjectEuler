@@ -1,0 +1,36 @@
+{
+  "name": "projecteuler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal.github.com:ananthtpai/ProjectEuler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^4.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "files": [
+      "src/**/test.ts"
+    ],
+    "nodeArguments": [
+      "--loader=ts-node/esm",
+      "--experimental-specifier-resolution=node"
+    ]
+  }
+}
