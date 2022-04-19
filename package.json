@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "ava"
+    "test": "ava src/LargestProductGrid"
   },
   "repository": {
     "type": "git",
