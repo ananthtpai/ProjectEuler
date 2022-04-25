@@ -27,8 +27,6 @@ The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
  */
 
-import { largeData, largeData2 } from './data'
-
 export function solution(input: number[][]) {
   let largestProduct = 1
   let type
@@ -110,5 +108,3 @@ export function solution(input: number[][]) {
   }
   return largestProduct
 }
-
-console.log(solution(largeData))

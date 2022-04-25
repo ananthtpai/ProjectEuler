@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava src/LargestProductGrid"
+    "test": "ava src/NumberLettersCount"
   },
   "repository": {
     "type": "git",
@@ -19,17 +19,5 @@
   },
   "devDependencies": {
     "esm": "^3.2.25"
-  },
-  "ava": {
-    "extensions": {
-      "ts": "module"
-    },
-    "files": [
-      "src/**/test.ts"
-    ],
-    "nodeArguments": [
-      "--loader=ts-node/esm",
-      "--experimental-specifier-resolution=node"
-    ]
   }
 }
